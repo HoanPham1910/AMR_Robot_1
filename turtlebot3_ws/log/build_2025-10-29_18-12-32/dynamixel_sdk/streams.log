@@ -1,0 +1,24 @@
+[0.044s] Invoking command in '/home/amr/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/turtlebot3_ws/install/main:/home/amr/turtlebot3_ws/install/turtlebot3_teleop:/home/amr/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/amr/turtlebot3_ws/build/dynamixel_sdk -- -j4 -l4
+[0.165s] [  0%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.180s] [100%] Built target dynamixel_sdk
+[0.314s] Traceback (most recent call last):
+[0.314s]   File "/home/amr/turtlebot3_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/setup.py", line 1, in <module>
+[0.314s]     from setuptools import find_packages
+[0.314s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 3, in <module>
+[0.314s]     from fnmatch import fnmatchcase
+[0.315s]   File "/usr/lib/python3.10/fnmatch.py", line 14, in <module>
+[0.317s]     import re
+[0.317s]   File "/usr/lib/python3.10/re.py", line 125, in <module>
+[0.317s]     import sre_compile
+[0.318s]   File "/usr/lib/python3.10/sre_compile.py", line 14, in <module>
+[0.318s]     import sre_parse
+[0.318s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.318s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[0.318s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[0.318s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[0.318s]   File "<frozen importlib._bootstrap_external>", line 1010, in get_code
+[0.318s]   File "<frozen importlib._bootstrap>", line 244, in _verbose_message
+[0.318s] KeyboardInterrupt
+[0.321s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg] Interrupt
+[0.321s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/all] Interrupt
+[0.321s] gmake: *** [Makefile:146: all] Interrupt

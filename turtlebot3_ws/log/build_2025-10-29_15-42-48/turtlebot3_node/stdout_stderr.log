@@ -1,0 +1,6 @@
+[  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+gmake[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:160: CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:146: CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turtlebot3_node_lib.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

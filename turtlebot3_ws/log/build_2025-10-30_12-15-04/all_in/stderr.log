@@ -1,0 +1,2 @@
+package init file 'all_in/__init__.py' not found (or not a regular file)
+error: can't copy '/home/amr/turtlebot3_ws/build/all_in/resource/all_in': doesn't exist or not a regular file

@@ -1,0 +1,23 @@
+slam_toolbox:
+  ros__parameters:
+
+    # --- Chế độ (CHUYỂN SANG MAPPING) ---
+    mode: mapping            # Bật chế độ tạo bản đồ
+    map_update_interval: 5.0 # Tần số lưu bản đồ (giá trị nhỏ hơn nếu muốn lưu thường xuyên)
+
+    # --- LiDAR / TF frames ---
+    odom_frame: "odom"
+    base_frame: "base_link"
+    scan_topic: "scan"
+
+    # --- Quản lý map ---
+    use_sim_time: false
+    publish_period_sec: 1.0
+    resolution: 0.05
+    max_laser_range: 12.0
+    minimum_time_interval: 0.05
+
+    # --- Lọc dữ liệu LiDAR ---
+    use_scan_matching: true
+    # ĐẶC BIỆT: PHẢI LÀ TRUE để cho phép thuật toán thay đổi bản đồ
+    update_map: true

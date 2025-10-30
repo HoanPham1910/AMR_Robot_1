@@ -1,0 +1,4 @@
+[0.018s] Invoking command in '/home/amr/turtlebot3_ws/build/all_in': /usr/bin/cmake /home/amr/turtlebot3_ws/src/all_in -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/amr/turtlebot3_ws/install/all_in
+[0.032s] [0mCMake Error: The source directory "/home/amr/turtlebot3_ws/src/all_in" does not appear to contain CMakeLists.txt.
+[0.032s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.034s] Invoked command in '/home/amr/turtlebot3_ws/build/all_in' returned '1': /usr/bin/cmake /home/amr/turtlebot3_ws/src/all_in -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/amr/turtlebot3_ws/install/all_in

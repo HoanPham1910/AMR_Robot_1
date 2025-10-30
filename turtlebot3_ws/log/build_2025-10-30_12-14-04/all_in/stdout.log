@@ -1,0 +1,19 @@
+running develop
+running egg_info
+creating all_in.egg-info
+writing all_in.egg-info/PKG-INFO
+writing dependency_links to all_in.egg-info/dependency_links.txt
+writing entry points to all_in.egg-info/entry_points.txt
+writing requirements to all_in.egg-info/requires.txt
+writing top-level names to all_in.egg-info/top_level.txt
+writing manifest file 'all_in.egg-info/SOURCES.txt'
+reading manifest file 'all_in.egg-info/SOURCES.txt'
+writing manifest file 'all_in.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/amr/turtlebot3_ws/install/all_in/lib/python3.10/site-packages/all-in.egg-link (link to .)
+
+Installed /home/amr/turtlebot3_ws/build/all_in
+running symlink_data
+creating /home/amr/turtlebot3_ws/install/all_in/share/ament_index
+creating /home/amr/turtlebot3_ws/install/all_in/share/ament_index/resource_index
+creating /home/amr/turtlebot3_ws/install/all_in/share/ament_index/resource_index/packages

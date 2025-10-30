@@ -1,0 +1,10 @@
+package.xml
+setup.py
+all_in.egg-info/PKG-INFO
+all_in.egg-info/SOURCES.txt
+all_in.egg-info/dependency_links.txt
+all_in.egg-info/entry_points.txt
+all_in.egg-info/requires.txt
+all_in.egg-info/top_level.txt
+all_in.egg-info/zip-safe
+launch/all_in_one_launch.py

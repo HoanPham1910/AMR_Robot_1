@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_node_lib[0m
+[  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[ 14%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[ 85%] Built target turtlebot3_node_lib
+[ 92%] [32m[1mLinking CXX executable turtlebot3_ros[0m

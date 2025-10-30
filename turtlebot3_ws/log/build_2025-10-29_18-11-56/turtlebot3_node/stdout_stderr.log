@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_node_lib[0m
+[  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[ 14%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[ 85%] Built target turtlebot3_node_lib
+[ 92%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+/usr/bin/ld: libturtlebot3_node_lib.a(odometry.cpp.o): in function `robotis::turtlebot3::Odometry::joint_state_and_imu_callback(std::shared_ptr<sensor_msgs::msg::JointState_<std::allocator<void> > const> const&, std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > const> const&)':
+odometry.cpp:(.text+0x1a5a): undefined reference to `robotis::turtlebot3::Odometry::update_imu(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > const> const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/turtlebot3_ros.dir/build.make:230: turtlebot3_ros] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtlebot3_ros.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

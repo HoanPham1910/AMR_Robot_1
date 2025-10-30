@@ -1,0 +1,18 @@
+[1.059s] Invoking command in '/home/amr/turtlebot3_ws/build/all_in': PYTHONPATH=/home/amr/turtlebot3_ws/build/all_in/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/all_in/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/all_in/build --no-deps symlink_data
+[1.504s] running develop
+[1.794s] running egg_info
+[1.794s] writing all_in.egg-info/PKG-INFO
+[1.794s] writing dependency_links to all_in.egg-info/dependency_links.txt
+[1.795s] writing entry points to all_in.egg-info/entry_points.txt
+[1.795s] writing requirements to all_in.egg-info/requires.txt
+[1.795s] writing top-level names to all_in.egg-info/top_level.txt
+[1.797s] package init file 'all_in/__init__.py' not found (or not a regular file)
+[1.798s] reading manifest file 'all_in.egg-info/SOURCES.txt'
+[1.799s] writing manifest file 'all_in.egg-info/SOURCES.txt'
+[1.801s] running build_ext
+[1.801s] Creating /home/amr/turtlebot3_ws/install/all_in/lib/python3.10/site-packages/all-in.egg-link (link to .)
+[1.803s] 
+[1.803s] Installed /home/amr/turtlebot3_ws/build/all_in
+[1.803s] running symlink_data
+[1.803s] error: can't copy '/home/amr/turtlebot3_ws/build/all_in/resource/all_in': doesn't exist or not a regular file
+[1.850s] Invoked command in '/home/amr/turtlebot3_ws/build/all_in' returned '1': PYTHONPATH=/home/amr/turtlebot3_ws/build/all_in/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/all_in/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/all_in/build --no-deps symlink_data

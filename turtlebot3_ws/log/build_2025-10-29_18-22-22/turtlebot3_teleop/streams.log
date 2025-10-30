@@ -1,0 +1,17 @@
+[1.661s] Invoking command in '/home/amr/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/amr/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[2.228s] running develop
+[2.641s] running egg_info
+[2.642s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[2.642s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[2.643s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[2.644s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[2.644s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.647s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.649s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.651s] running build_ext
+[2.652s] Creating /home/amr/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.654s] Installing teleop_keyboard script to /home/amr/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.654s] 
+[2.654s] Installed /home/amr/turtlebot3_ws/build/turtlebot3_teleop
+[2.654s] running symlink_data
+[2.715s] Invoked command in '/home/amr/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/amr/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data

@@ -1,0 +1,22 @@
+[3.143s] Invoking command in '/home/amr/turtlebot3_ws/build/main': PYTHONPATH=/home/amr/turtlebot3_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/main/build --no-deps symlink_data
+[3.590s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.590s]   warnings.warn(
+[3.640s] running develop
+[4.007s] running egg_info
+[4.007s] writing main.egg-info/PKG-INFO
+[4.007s] writing dependency_links to main.egg-info/dependency_links.txt
+[4.008s] writing entry points to main.egg-info/entry_points.txt
+[4.008s] writing requirements to main.egg-info/requires.txt
+[4.008s] writing top-level names to main.egg-info/top_level.txt
+[4.009s] reading manifest file 'main.egg-info/SOURCES.txt'
+[4.010s] writing manifest file 'main.egg-info/SOURCES.txt'
+[4.012s] running build_ext
+[4.013s] Creating /home/amr/turtlebot3_ws/install/main/lib/python3.10/site-packages/main.egg-link (link to .)
+[4.015s] Installing ROS2Publisher script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.016s] Installing encoder_joint_state_publisher script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.016s] Installing main script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.016s] Installing odom_tf_broadcaster script to /home/amr/turtlebot3_ws/install/main/lib/main
+[4.017s] 
+[4.017s] Installed /home/amr/turtlebot3_ws/build/main
+[4.017s] running symlink_data
+[4.063s] Invoked command in '/home/amr/turtlebot3_ws/build/main' returned '0': PYTHONPATH=/home/amr/turtlebot3_ws/build/main/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/turtlebot3_ws/install/main/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/turtlebot3_ws/build/main/build --no-deps symlink_data

@@ -1,0 +1,254 @@
+[INFO] [launch]: All log files can be found below /home/amr/.ros/log/2025-10-30-12-23-00-737074-hoan-21951
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cartographer_node-1]: process started with pid [21965]
+[INFO] [cartographer_occupancy_grid_node-2]: process started with pid [21967]
+[INFO] [rviz2-3]: process started with pid [21969]
+[rviz2-3] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[cartographer_node-1] [INFO] [1761801781.362879844] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/home/amr/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua' for 'turtlebot3_lds_2d.lua'.
+[cartographer_node-1] [INFO] [1761801781.363333214] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-1] [INFO] [1761801781.363375604] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.
+[cartographer_node-1] [INFO] [1761801781.363459556] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-1] [INFO] [1761801781.363492033] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.
+[cartographer_node-1] [INFO] [1761801781.363676376] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-1] [INFO] [1761801781.363715887] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.
+[cartographer_node-1] [INFO] [1761801781.363790819] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-1] [INFO] [1761801781.363825272] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.
+[cartographer_node-1] [INFO] [1761801781.364005347] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-1] [INFO] [1761801781.364043527] [cartographer logger]: I1030 12:23:01.000000 21965 configuration_file_resolver.cc:41] Found '/opt/ros/humble/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.
+[cartographer_node-1] [INFO] [1761801781.411957384] [cartographer logger]: I1030 12:23:01.000000 21965 map_builder_bridge.cpp:136] Added trajectory with ID '0'.
+[rviz2-3] [INFO] [1761801781.582259719] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1761801781.582524960] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-3] [INFO] [1761801781.615340104] [rviz2]: Stereo is NOT SUPPORTED
+[cartographer_node-1] [INFO] [1761801783.063533746] [cartographer logger]: I1030 12:23:03.000000 21965 ordered_multi_queue.cc:172] All sensor data for trajectory 0 is available starting at '638973985830411844'.
+[cartographer_node-1] [INFO] [1761801783.075168488] [cartographer logger]: I1030 12:23:03.000000 21965 local_trajectory_builder_2d.cc:312] Extrapolator not yet initialized.
+[cartographer_node-1] [INFO] [1761801783.075351085] [cartographer logger]: I1030 12:23:03.000000 21965 local_trajectory_builder_2d.cc:135] Extrapolator is still initializing.
+[cartographer_node-1] [INFO] [1761801783.181017783] [cartographer logger]: I1030 12:23:03.000000 21965 pose_graph_2d.cc:148] Inserted submap (0, 0).
+[cartographer_node-1] [WARN] [1761801783.386658145] [cartographer logger]: W1030 12:23:03.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[cartographer_node-1] [WARN] [1761801783.591722280] [cartographer logger]: W1030 12:23:03.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[cartographer_node-1] [WARN] [1761801783.812108973] [cartographer logger]: W1030 12:23:03.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[cartographer_node-1] [WARN] [1761801784.032034450] [cartographer logger]: W1030 12:23:04.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801784.095974263] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801781.634 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801784.191951798] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.063 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801784.241158977] [cartographer logger]: W1030 12:23:04.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801784.255266425] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.175 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801784.351274476] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.286 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801784.388471116] [rviz2]: Trying to create a map of size 121 x 97 using 1 swatches
+[rviz2-3] [ERROR] [1761801784.419341633] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-3] active samplers with a different type refer to the same texture image unit
+[rviz2-3] [INFO] [1761801784.447578051] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.395 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801784.451697043] [cartographer logger]: W1030 12:23:04.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801784.543689507] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.507 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801784.608245550] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.605 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801784.665728111] [cartographer logger]: W1030 12:23:04.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801784.703331712] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.702 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801784.800169086] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.802 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801784.863469371] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.888 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801784.883626777] [cartographer logger]: W1030 12:23:04.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801784.959901091] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801783.985 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801785.056161982] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.072 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801785.097721785] [cartographer logger]: W1030 12:23:05.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801785.119644429] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.169 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801785.215191604] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.255 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801785.279646772] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.342 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801785.305375618] [cartographer logger]: W1030 12:23:05.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801785.375212129] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.428 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801785.439802161] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.515 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801785.514355565] [cartographer logger]: W1030 12:23:05.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801785.535188129] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.600 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801785.599474102] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.686 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801785.696044291] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.772 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801785.725747794] [cartographer logger]: W1030 12:23:05.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801785.791459075] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.861 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801785.855691352] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801784.943 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801785.941476620] [cartographer logger]: W1030 12:23:05.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801785.951703386] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.033 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.015428126] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.102 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.111537373] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.189 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801786.155250909] [cartographer logger]: W1030 12:23:06.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801786.175507060] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.275 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.272324838] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.361 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.336010012] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.435 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801786.370500371] [cartographer logger]: W1030 12:23:06.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801786.431680044] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.521 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.495416390] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.594 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801786.585628635] [cartographer logger]: W1030 12:23:06.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801786.591961863] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.682 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.655696034] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.767 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.751701962] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.841 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801786.796360821] [cartographer logger]: W1030 12:23:06.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801786.847694452] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801785.928 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801786.911527645] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.013 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.007965136] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.086 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801787.013122349] [cartographer logger]: W1030 12:23:07.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801787.072223767] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.172 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.167360583] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.246 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801787.228158149] [cartographer logger]: W1030 12:23:07.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801787.232012523] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.332 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.327884498] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.417 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.392184223] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.491 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801787.447024925] [cartographer logger]: W1030 12:23:07.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801787.488125862] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.578 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.551856984] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.651 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.648077980] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.738 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801787.662064773] [cartographer logger]: W1030 12:23:07.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801787.711604420] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.824 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.807400070] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.898 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801787.871947197] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801786.983 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801787.877874971] [cartographer logger]: W1030 12:23:07.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801787.968125982] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.057 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.031964265] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.143 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801788.088421912] [cartographer logger]: W1030 12:23:08.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801788.127360925] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.229 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.191614719] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.303 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.288013171] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.389 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801788.294931130] [cartographer logger]: W1030 12:23:08.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801788.351806691] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.462 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.447431308] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.549 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801788.509504031] [cartographer logger]: W1030 12:23:08.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801788.511934055] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.635 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.607959492] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.708 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.671462047] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.794 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801788.726583470] [cartographer logger]: W1030 12:23:08.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801788.768133201] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.868 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.831815045] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801787.954 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801788.927559711] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.027 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801788.943057116] [cartographer logger]: W1030 12:23:08.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801788.991827018] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.112 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.087824425] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.186 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.152074375] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.272 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801789.160372568] [cartographer logger]: W1030 12:23:09.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801789.247597662] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.347 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.311688721] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.433 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801789.375563488] [cartographer logger]: W1030 12:23:09.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801789.382596282] [rviz2]: Trying to create a map of size 122 x 97 using 1 swatches
+[rviz2-3] [INFO] [1761801789.408205549] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.507 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.471391792] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.593 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.567757018] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.666 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801789.592008615] [cartographer logger]: W1030 12:23:09.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801789.631721587] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.741 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.727362111] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.826 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.792100848] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.901 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801789.805859077] [cartographer logger]: W1030 12:23:09.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801789.887667982] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801788.986 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801789.951830390] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.060 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801790.020680447] [cartographer logger]: W1030 12:23:10.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801790.048033826] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.146 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.111507279] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.220 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.207538115] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.305 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801790.236699228] [cartographer logger]: W1030 12:23:10.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801790.271635621] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.380 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.336197504] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.465 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.431367831] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.539 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801790.451804483] [cartographer logger]: W1030 12:23:10.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801790.495947004] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.612 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.591728219] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.699 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.656131484] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.773 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801790.663081025] [cartographer logger]: W1030 12:23:10.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801790.751853431] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.859 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.816111076] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801789.932 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801790.877172746] [cartographer logger]: W1030 12:23:10.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801790.879892629] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.018 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801790.976042398] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.091 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.039700669] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.178 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801791.091879472] [cartographer logger]: W1030 12:23:11.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801791.135398339] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.251 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.199933498] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.325 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.295187009] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.411 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801791.307537614] [cartographer logger]: W1030 12:23:11.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801791.359932799] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.484 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.455738089] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.571 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.520059097] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.645 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801791.520109919] [cartographer logger]: W1030 12:23:11.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801791.616133393] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.730 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.680244850] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.804 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801791.734635510] [cartographer logger]: W1030 12:23:11.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801791.775176112] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.878 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.839597099] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801790.964 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801791.935690649] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.038 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801791.946809768] [cartographer logger]: W1030 12:23:11.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801791.999362535] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.124 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.095798851] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.198 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801792.155250647] [cartographer logger]: W1030 12:23:12.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801792.159322356] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.284 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.256328789] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.357 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.320001891] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.431 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801792.363512555] [cartographer logger]: W1030 12:23:12.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801792.415509910] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.517 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.480293747] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.591 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.543850602] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.677 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801792.580309984] [cartographer logger]: W1030 12:23:12.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801792.640464436] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.749 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.704020392] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.825 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801792.793234816] [cartographer logger]: W1030 12:23:12.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801792.800512141] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.912 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.863657131] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801791.983 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801792.960038466] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.072 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801793.013062362] [cartographer logger]: W1030 12:23:13.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801793.024817312] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.143 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.119544038] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.229 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.184358507] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.303 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801793.231456422] [cartographer logger]: W1030 12:23:13.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801793.280372178] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.390 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.344206525] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.463 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.440380520] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.536 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801793.448430474] [cartographer logger]: W1030 12:23:13.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801793.504214655] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.622 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.599558978] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.697 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801793.663587381] [cartographer logger]: W1030 12:23:13.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801793.664378474] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.783 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.759743093] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.856 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.824332249] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801792.942 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801793.881174453] [cartographer logger]: W1030 12:23:13.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801793.920125734] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.016 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801793.984417476] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.090 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.079895987] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.176 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801794.099980013] [cartographer logger]: W1030 12:23:14.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801794.143880305] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.249 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.208353642] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.335 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.304440235] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.409 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801794.315688283] [cartographer logger]: W1030 12:23:14.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801794.367702409] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.495 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.463558094] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.569 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.528301949] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.643 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801794.534422444] [cartographer logger]: W1030 12:23:14.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801794.624065157] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.728 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.688241260] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.802 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801794.751341327] [cartographer logger]: W1030 12:23:14.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801794.783723385] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.888 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.848043964] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801793.962 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801794.913205009] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.048 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801794.970415019] [cartographer logger]: W1030 12:23:14.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801795.008416036] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.122 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.071458075] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.195 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.167650050] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.281 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801795.186247820] [cartographer logger]: W1030 12:23:15.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801795.231511805] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.356 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.327344814] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.441 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.392087292] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.515 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801795.392317944] [cartographer logger]: W1030 12:23:15.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801795.487503348] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.601 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.551425643] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.676 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801795.600214562] [cartographer logger]: W1030 12:23:15.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801795.647959344] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.761 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.712022071] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.834 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.808292386] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.908 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801795.818542963] [cartographer logger]: W1030 12:23:15.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801795.871846070] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801794.994 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801795.968104865] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.068 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801796.031957949] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.152 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801796.037816331] [cartographer logger]: W1030 12:23:16.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801796.128235627] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.226 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801796.192088394] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.313 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801796.254428149] [cartographer logger]: W1030 12:23:16.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801796.288156997] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.386 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801796.351803219] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.472 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801796.416195830] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.546 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801796.467322511] [cartographer logger]: W1030 12:23:16.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[cartographer_node-1] [INFO] [1761801796.468482037] [cartographer logger]: I1030 12:23:16.000000 21965 collated_trajectory_builder.cc:81] odom rate: 4.85 Hz 2.06e-01 s +/- 4.17e-02 s (pulsed at 97.07% real time)
+[cartographer_node-1] [INFO] [1761801796.468600556] [cartographer logger]: I1030 12:23:16.000000 21965 collated_trajectory_builder.cc:81] scan rate: 4.76 Hz 2.10e-01 s +/- 4.17e-02 s (pulsed at 97.19% real time)
+[rviz2-3] [INFO] [1761801796.511717332] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.622 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801796.576242486] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.707 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801796.672596236] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.782 for reason 'discarding message because the queue is full'
+[cartographer_node-1] [WARN] [1761801796.687650080] [cartographer logger]: W1030 12:23:16.000000 21965 tf_bridge.cpp:53] "odom" passed to lookupTransform argument source_frame does not exist. 
+[rviz2-3] [INFO] [1761801796.736016468] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.854 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1761801796.800063623] [rviz2]: Message Filter dropping message: frame 'base_scan' at time 1761801795.940 for reason 'discarding message because the queue is full'
